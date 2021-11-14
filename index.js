@@ -1,5 +1,5 @@
 import express from 'express';
-import userRoute from './src/routes/userRoute';
+import userRoute from './src/routes/userRoute.js';
 
 const app = express();
 app.use(express.urlencoded({extended: false}));

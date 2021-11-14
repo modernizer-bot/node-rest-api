@@ -1,4 +1,4 @@
-import user from '../utils/user';
+import user from '../utils/user.js';
 
 const userRoute = app => {
   app.get('/user', (req, res) => {
